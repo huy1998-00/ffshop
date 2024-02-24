@@ -18,8 +18,8 @@ const Navbar = () => {
         </a>
       </div>
       {/* navigation */}
-      <div>
-        <ul className="flex  items-center gap-[4vw] text-white md:hidennav">
+      <div className="md:absolute lg:static md: top-0 md:left-3">
+        <ul className=" lg:flex items-center gap-[4vw] text-white   md:flex-col  md:gap-5">
           <li>
             <a href="" className="hover:text-red-400">
               Currency
